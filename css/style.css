@@ -1,3 +1,76 @@
 
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.scores {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.scores p {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.player, .comp {
+    flex: 1;
+    text-align: center;
+}
+
+.options {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#messages {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.reset-game {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset-game:hover {
+    background-color: #45a049;
+}

@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Kamień, papier, nożyce</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages">Zagrałem kamień! Jeśli Twój ruch to papier, to wygrywasz!</div>
-	</div>
-	<script src="js/functions.js"></script>
-	<script src="js/script.js"></script>
+    <h1>PAPIER | KAMIEŃ | NOŻYCE</h1>
+    <div class="scores">
+        <p class="player">PLAYER - <span class="player-points">0</span></p>
+        <p class="comp"><span class="comp-points">0</span> - COMP</p>
+    </div>
+    <section class="options">
+        <div class="container">
+            <div id="buttons">
+                <button id="button-rock">Kamień</button>
+                <button id="button-paper">Papier</button>
+                <button id="button-scissors">Nożyce</button>
+            </div>
+            <div id="messages">Co Wybierasz?</div>
+        </div>
+    </section>
+    <div class="choices">
+        <p class="player">Player choice: <span class="player-choice"></span></p>
+        <p class="comp">Comp choice: <span class="comp-choice"></span></p>
+    </div>
+    <p class="result-text">Wynik gry: <span class="result"></span></p>
+    <button class="reset-game">Resetuj grę</button>
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
