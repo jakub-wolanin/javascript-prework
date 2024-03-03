@@ -8,8 +8,8 @@ let compPoints = 0;
 const playerPointsElement = document.querySelector('.player-points');
 const compPointsElement = document.querySelector('.comp-points');
 const resultElement = document.querySelector('.result');
-var playerChoiceElement = document.querySelector('.player-choice');
-var compChoiceElement = document.querySelector('.comp-choice');
+const playerChoiceElement = document.querySelector('.player-choice');
+const compChoiceElement = document.querySelector('.comp-choice');
 
 var resetGameButton = document.querySelector('.reset-game');
 resetGameButton.addEventListener('click', function () {
