@@ -2,8 +2,8 @@ const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
 const buttonScissors = document.getElementById('button-scissors');
 
-var playerPoints = 0;
-var compPoints = 0;
+let playerPoints = 0;
+let compPoints = 0;
 
 var playerPointsElement = document.querySelector('.player-points');
 var compPointsElement = document.querySelector('.comp-points');
