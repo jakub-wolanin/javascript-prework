@@ -5,8 +5,8 @@ const buttonScissors = document.getElementById('button-scissors');
 let playerPoints = 0;
 let compPoints = 0;
 
-var playerPointsElement = document.querySelector('.player-points');
-var compPointsElement = document.querySelector('.comp-points');
+const playerPointsElement = document.querySelector('.player-points');
+const compPointsElement = document.querySelector('.comp-points');
 var resultElement = document.querySelector('.result');
 var playerChoiceElement = document.querySelector('.player-choice');
 var compChoiceElement = document.querySelector('.comp-choice');
