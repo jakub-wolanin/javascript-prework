@@ -7,7 +7,7 @@ let compPoints = 0;
 
 const playerPointsElement = document.querySelector('.player-points');
 const compPointsElement = document.querySelector('.comp-points');
-var resultElement = document.querySelector('.result');
+const resultElement = document.querySelector('.result');
 var playerChoiceElement = document.querySelector('.player-choice');
 var compChoiceElement = document.querySelector('.comp-choice');
 
