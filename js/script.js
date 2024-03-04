@@ -76,8 +76,8 @@ function displayResult(argPlayerMove, argComputerMove) {
     playerPointsElement.innerText = playerPoints;
     compPointsElement.innerText = compPoints;
 
-    playerChoiceElement.innerText = 'Twój wybór: ' + argPlayerMove;
-    compChoiceElement.innerText = 'Wybór komputera: ' + argComputerMove;
+    playerChoiceElement.innerText = argPlayerMove;
+    compChoiceElement.innerText = argComputerMove;
 }
 
 buttonRock.addEventListener('click', function () {
