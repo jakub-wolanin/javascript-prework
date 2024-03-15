@@ -11,7 +11,7 @@ const resultElement = document.querySelector('.result');
 const playerChoiceElement = document.querySelector('.player-choice');
 const compChoiceElement = document.querySelector('.comp-choice');
 
-var resetGameButton = document.querySelector('.reset-game');
+const resetGameButton = document.querySelector('.reset-game');
 resetGameButton.addEventListener('click', function () {
     resetGame();
 });
